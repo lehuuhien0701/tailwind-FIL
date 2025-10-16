@@ -236,7 +236,7 @@ const ArrowRight = () => (
                     
                     {/* MỤC 1 */}
                     <div className="flex items-start py-5 border-b border-gray-200"> {/* Dùng py-5 và border-gray-200 */}
-                        <div className="flex items-start gap-4 flex-1">
+                        <div className="flex items-center gap-4 flex-1">
                             {/* ⚠️ Dùng SVG Check thực tế hoặc component CheckIcon */}
                             {/* Thay thế bằng SVG (hoặc component của bạn) */}
                             <div className='w-4'>
@@ -250,7 +250,7 @@ const ArrowRight = () => (
                     
                     {/* MỤC 2 */}
                     <div className="flex items-start py-5 border-b border-gray-200">
-                        <div className="flex items-start gap-4 flex-1">
+                        <div className="flex items-center gap-4 flex-1">
                             <div className='w-4'>
                             <CheckIcon className="text-teal-500 mt-1 flex-shrink-0" />
                             </div>
@@ -262,7 +262,7 @@ const ArrowRight = () => (
                     
                     {/* MỤC 3 (Mục cuối cùng, không có border-b) */}
                     <div className="flex items-start py-5"> 
-                        <div className="flex items-start gap-4 flex-1">
+                        <div className="flex items-center gap-4 flex-1">
                             <div className='w-4'>
                               <CheckIcon className="text-teal-500 mt-1 flex-shrink-0" />
                             </div>
@@ -369,8 +369,8 @@ const ArrowRight = () => (
                     <div className="flex flex-col gap-0"> {/* Giảm khoảng cách giữa các mục */}
                         
                         {/* MỤC 1 */}
-                        <div className="flex items-start py-5 border-b border-gray-200"> {/* Dùng py-5 và border-gray-200 */}
-                            <div className="flex items-start gap-4 flex-1">
+                        <div className="flex items-center py-5 border-b border-gray-200"> {/* Dùng py-5 và border-gray-200 */}
+                            <div className="flex items-center gap-4 flex-1">
                                 {/* ⚠️ Dùng SVG Check thực tế hoặc component CheckIcon */}
                                 {/* Thay thế bằng SVG (hoặc component của bạn) */}
                                 <div className='w-4'>
@@ -383,8 +383,8 @@ const ArrowRight = () => (
                         </div>
                         
                         {/* MỤC 2 */}
-                        <div className="flex items-start py-5 border-b border-gray-200">
-                            <div className="flex items-start gap-4 flex-1">
+                        <div className="flex items-center py-5 border-b border-gray-200">
+                            <div className="flex items-center gap-4 flex-1">
                                 <div className='w-4'>
                                 <CheckIcon className="text-teal-500 mt-1 flex-shrink-0" />
                                 </div>
@@ -396,7 +396,7 @@ const ArrowRight = () => (
                         
                         {/* MỤC 3 (Mục cuối cùng, không có border-b) */}
                         <div className="flex items-start py-5"> 
-                            <div className="flex items-start gap-4 flex-1">
+                            <div className="flex items-center gap-4 flex-1"> 
                                 <div className='w-4'>
                                   <CheckIcon className="text-teal-500 mt-1 flex-shrink-0" />
                                 </div>
